@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(179, 179, 216);
+}
+
+.main {
+    color: rgb(0, 0, 0);
+    background-color: #b7dbc3;
+    text-align: center;
+}
+
+a,
+a:link,
+a:active {
+    color:           #00e;
+    text-decoration: none;
+}
+
+a:visited, a:hover {
+    color: rgb(18, 24, 6);
+    text-decoration: none;
+}
+
+ul {
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
