@@ -1,33 +1,22 @@
 * {
-    box-sizing: border-box;
-    background-color: rgb(179, 179, 216);
-}
-
-.main {
-    color: rgb(0, 0, 0);
-    background-color: #b7dbc3;
+    background-color: rgb(136, 136, 136);
+    padding: 0px;
+    margin: 0px;
     text-align: center;
 }
 
-a,
-a:link,
-a:active {
-    color:           #00e;
-    text-decoration: none;
-}
-
-a:visited, a:hover {
-    color: rgb(18, 24, 6);
-    text-decoration: none;
+div {
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    padding: 32px;
+    margin: 32px;
 }
 
 ul {
-    font-size: 16px;
-    font-weight: normal;
-    color: black;
+    font-size: 24px;
 }
 
-h2 {
-    font-size: 32px;
-    font-weight: bold;
+.beef {
+    display: inline-block;
+    background-image: linear-gradient(red, yellow, green);
 }
