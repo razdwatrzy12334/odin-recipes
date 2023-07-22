@@ -1,22 +1,82 @@
 * {
-    background-color: rgb(136, 136, 136);
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-div {
-    font-size: 32px;
-    color: rgb(0, 0, 0);
-    padding: 32px;
-    margin: 32px;
+body {
+    background-color: #333;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
-ul {
-    font-size: 24px;
+h1 {
+    color: darkred;
+    height: 150px;
+    width: 400px;
+    padding: 25px;
+    margin: 20px 30%;
+    font-size: 40px;
+    font-family: Tahoma;
 }
 
-.beef {
+.beefstew {
     display: inline-block;
-    background-image: linear-gradient(red, yellow, green);
+    width: 300px;
+    margin: 5px;
+    vertical-align: middle;
 }
+
+.first-recipe {
+    width: 800px; 
+    margin: 20px auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
+}
+
+.first-recipe.feature {
+    border: 2px solid darkred;
+}
+
+.first-recipe a {
+text-decoration: none;
+margin: 0px;
+display: inline-block;
+vertical-align: top;
+}
+
+.first-recipe-content {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+    vertical-align: top;
+}
+
+.first-recipe-content p, h2 {
+    display: inline-block;
+}
+
+a {
+    display:inline-block;
+    font-size: 26px;
+}
+
+p {
+    font-size: 22px;
+}
+
+a:active {
+    transition: color .9s;
+    color: rgba(139, 0, 0, 0.349);
+}
+
+a:hover {
+    transition: color .9s;
+    color: rgb(19, 0, 128);
+}
+
+a:visited {
+    transition: color .9s;
+    color: rgba(139, 0, 0, 0.349);
+}
+
